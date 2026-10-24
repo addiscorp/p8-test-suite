@@ -1,0 +1,6 @@
+{
+  "tag": "php-8.4.27",
+  "commit": "00d8bae801541db0d95a698e108bb4b1b273fe6e",
+  "archive": "https://github.com/php/php-src/archive/refs/tags/php-8.4.27.tar.gz",
+  "sha256": "ae5896236c1b5bba6c36dcdd2e30c87ccda595d28650d18e6c007eebb0db68ab"
+}
