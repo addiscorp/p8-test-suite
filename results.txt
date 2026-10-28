@@ -2493,7 +2493,7 @@ fail Zend/tests/gh16293_002.phpt
 pass Zend/tests/gh16371.phpt
 fail Zend/tests/gh16408.phpt
 skip Zend/tests/gh16508.phpt
-fail Zend/tests/gh16509.phpt
+pass Zend/tests/gh16509.phpt
 fail Zend/tests/gh16515.phpt
 pass Zend/tests/gh16615_001.phpt
 pass Zend/tests/gh16615_002.phpt
@@ -2821,7 +2821,7 @@ pass Zend/tests/lazy_objects/gh20854.phpt
 fail Zend/tests/lazy_objects/gh20873.phpt
 fail Zend/tests/lazy_objects/gh20875.phpt
 fail Zend/tests/lazy_objects/gh20875_proxy_get_no_init.phpt
-fail Zend/tests/lazy_objects/gh20905.phpt
+pass Zend/tests/lazy_objects/gh20905.phpt
 fail Zend/tests/lazy_objects/gh21478-isset.phpt
 pass Zend/tests/lazy_objects/gh21478-proxy-get-override.phpt
 fail Zend/tests/lazy_objects/gh21478-proxy-get-ref-forward.phpt
@@ -3562,7 +3562,7 @@ fail Zend/tests/oss_fuzz_61712.phpt
 fail Zend/tests/oss_fuzz_61712b.phpt
 fail Zend/tests/oss_fuzz_63802.phpt
 pass Zend/tests/oss_fuzz_64209.phpt
-fail Zend/tests/output_started_at_eval.phpt
+pass Zend/tests/output_started_at_eval.phpt
 pass Zend/tests/overloaded_assign_prop_return_value.phpt
 pass Zend/tests/overloaded_prop_assign_op_refs.phpt
 fail Zend/tests/parameter_default_values/internal_declaration_error_class_const.phpt
@@ -4731,7 +4731,7 @@ fail Zend/tests/type_declarations/union_types/redundant_types/object_and_static.
 fail Zend/tests/type_declarations/union_types/redundant_types/object_and_static2.phpt
 pass Zend/tests/type_declarations/union_types/standalone_null.phpt
 pass Zend/tests/type_declarations/union_types/standalone_nullable_false.phpt
-fail Zend/tests/type_declarations/union_types/type_checking_strict.phpt
+pass Zend/tests/type_declarations/union_types/type_checking_strict.phpt
 fail Zend/tests/type_declarations/union_types/type_checking_weak.phpt
 fail Zend/tests/type_declarations/union_types/variance/invalid_001.phpt
 fail Zend/tests/type_declarations/union_types/variance/invalid_002.phpt
@@ -8315,7 +8315,7 @@ pass ext/opcache/tests/opt/sccp_038.phpt
 pass ext/opcache/tests/opt/sccp_039.phpt
 pass ext/opcache/tests/opt/sccp_040.phpt
 pass ext/opcache/tests/opt/sccp_041.phpt
-fail ext/opcache/tests/opt/sccp_exception.phpt
+pass ext/opcache/tests/opt/sccp_exception.phpt
 fail ext/opcache/tests/opt/sccp_exception2.phpt
 fail ext/opcache/tests/opt/sccp_exception3.phpt
 pass ext/opcache/tests/opt/sccp_in_array.phpt
@@ -8682,7 +8682,7 @@ skip ext/pcre/tests/bug76850.phpt
 pass ext/pcre/tests/bug76909.phpt
 skip ext/pcre/tests/bug77193.phpt
 pass ext/pcre/tests/bug77827.phpt
-fail ext/pcre/tests/bug78338.phpt
+pass ext/pcre/tests/bug78338.phpt
 pass ext/pcre/tests/bug78853.phpt
 pass ext/pcre/tests/bug79188.phpt
 pass ext/pcre/tests/bug79241.phpt
@@ -8771,7 +8771,7 @@ pass ext/pcre/tests/preg_replace_callback_array_fatal_error.phpt
 pass ext/pcre/tests/preg_replace_callback_array_numeric_index_error.phpt
 pass ext/pcre/tests/preg_replace_callback_basic.phpt
 pass ext/pcre/tests/preg_replace_callback_error1.phpt
-fail ext/pcre/tests/preg_replace_callback_fatal_error_leak.phpt
+pass ext/pcre/tests/preg_replace_callback_fatal_error_leak.phpt
 pass ext/pcre/tests/preg_replace_callback_flags.phpt
 pass ext/pcre/tests/preg_replace_edit_basic.phpt
 pass ext/pcre/tests/preg_replace_error1.phpt
@@ -13115,8 +13115,8 @@ fail ext/standard/tests/general_functions/debug_zval_dump_v.phpt
 fail ext/standard/tests/general_functions/dl-check-enabled.phpt
 fail ext/standard/tests/general_functions/dl-cve-2007-4887.phpt
 fail ext/standard/tests/general_functions/dl-full-path-not-supported.phpt
-fail ext/standard/tests/general_functions/error_clear_last.phpt
-fail ext/standard/tests/general_functions/error_get_last.phpt
+pass ext/standard/tests/general_functions/error_clear_last.phpt
+pass ext/standard/tests/general_functions/error_get_last.phpt
 pass ext/standard/tests/general_functions/escapeshellarg_basic.phpt
 fail ext/standard/tests/general_functions/escapeshellarg_bug71039.phpt
 fail ext/standard/tests/general_functions/escapeshellarg_bug71270.phpt
@@ -13160,7 +13160,7 @@ pass ext/standard/tests/general_functions/gettype_settype_error.phpt
 fail ext/standard/tests/general_functions/gh12655.phpt
 fail ext/standard/tests/general_functions/gh20840.phpt
 fail ext/standard/tests/general_functions/gh9905.phpt
-fail ext/standard/tests/general_functions/head.phpt
+pass ext/standard/tests/general_functions/head.phpt
 skip ext/standard/tests/general_functions/header_redirection_001.phpt
 skip ext/standard/tests/general_functions/header_redirection_002.phpt
 skip ext/standard/tests/general_functions/header_redirection_003.phpt
@@ -13175,7 +13175,7 @@ skip ext/standard/tests/general_functions/header_redirection_012.phpt
 skip ext/standard/tests/general_functions/header_redirection_013.phpt
 skip ext/standard/tests/general_functions/header_redirection_014.phpt
 fail ext/standard/tests/general_functions/highlight_heredoc.phpt
-fail ext/standard/tests/general_functions/http_response_code.phpt
+pass ext/standard/tests/general_functions/http_response_code.phpt
 fail ext/standard/tests/general_functions/include_path.phpt
 skip ext/standard/tests/general_functions/ini_get_all.phpt
 fail ext/standard/tests/general_functions/ini_set_types.phpt
@@ -13587,11 +13587,11 @@ fail ext/standard/tests/network/bug20134.phpt
 fail ext/standard/tests/network/bug55472.phpt
 fail ext/standard/tests/network/bug64330.phpt
 fail ext/standard/tests/network/bug68925.phpt
-fail ext/standard/tests/network/bug69523.phpt
+pass ext/standard/tests/network/bug69523.phpt
 skip ext/standard/tests/network/bug69948.phpt
 skip ext/standard/tests/network/bug72071.phpt
 fail ext/standard/tests/network/bug74764.phpt
-fail ext/standard/tests/network/bug76755.phpt
+pass ext/standard/tests/network/bug76755.phpt
 fail ext/standard/tests/network/bug79405.phpt
 fail ext/standard/tests/network/closelog_basic.phpt
 fail ext/standard/tests/network/dns_check_record_error_conditions.phpt
@@ -13622,7 +13622,7 @@ skip ext/standard/tests/network/net_get_interfaces_001.phpt
 skip ext/standard/tests/network/setcookie.phpt
 skip ext/standard/tests/network/setcookie_array_option_error.phpt
 skip ext/standard/tests/network/setcookie_error.phpt
-fail ext/standard/tests/network/setcookie_option_case_variant_leak.phpt
+pass ext/standard/tests/network/setcookie_option_case_variant_leak.phpt
 skip ext/standard/tests/network/setrawcookie_error.phpt
 skip ext/standard/tests/network/shutdown.phpt
 fail ext/standard/tests/network/socket_bug74429.phpt
@@ -13813,8 +13813,8 @@ fail ext/standard/tests/serialize/unserialize_overwrite_undeclared_protected.php
 pass ext/standard/tests/serialize/unserialize_ref_to_overwritten_declared_prop.phpt
 pass ext/standard/tests/serialize/unserialize_subclasses.phpt
 fail ext/standard/tests/serialize/unserialize_uppercase_s.phpt
-fail ext/standard/tests/setrawcookie_basic_001.phpt
-fail ext/standard/tests/setrawcookie_basic_002.phpt
+pass ext/standard/tests/setrawcookie_basic_001.phpt
+pass ext/standard/tests/setrawcookie_basic_002.phpt
 fail ext/standard/tests/streams/bug40459.phpt
 fail ext/standard/tests/streams/bug44712.phpt
 fail ext/standard/tests/streams/bug44818.phpt
@@ -14062,7 +14062,7 @@ fail ext/standard/tests/strings/bug60965.phpt
 pass ext/standard/tests/strings/bug61038.phpt
 fail ext/standard/tests/strings/bug61116.phpt
 fail ext/standard/tests/strings/bug61374.phpt
-fail ext/standard/tests/strings/bug61660.phpt
+pass ext/standard/tests/strings/bug61660.phpt
 pass ext/standard/tests/strings/bug61764.phpt
 fail ext/standard/tests/strings/bug62443.phpt
 fail ext/standard/tests/strings/bug62462.phpt
@@ -14185,8 +14185,8 @@ fail ext/standard/tests/strings/gh20906_2.phpt
 fail ext/standard/tests/strings/gh20906_3.phpt
 fail ext/standard/tests/strings/gh23204.phpt
 fail ext/standard/tests/strings/hebrev_basic.phpt
-fail ext/standard/tests/strings/hex2bin_basic.phpt
-fail ext/standard/tests/strings/hex2bin_error.phpt
+pass ext/standard/tests/strings/hex2bin_basic.phpt
+pass ext/standard/tests/strings/hex2bin_error.phpt
 fail ext/standard/tests/strings/highlight_file.phpt
 pass ext/standard/tests/strings/html_entity_decode1.phpt
 pass ext/standard/tests/strings/html_entity_decode2.phpt
@@ -14287,7 +14287,7 @@ pass ext/standard/tests/strings/pack64.phpt
 pass ext/standard/tests/strings/pack_A.phpt
 fail ext/standard/tests/strings/pack_Z.phpt
 pass ext/standard/tests/strings/pack_arrays.phpt
-fail ext/standard/tests/strings/pack_float.phpt
+pass ext/standard/tests/strings/pack_float.phpt
 pass ext/standard/tests/strings/parse_str_basic1.phpt
 fail ext/standard/tests/strings/parse_str_basic2.phpt
 pass ext/standard/tests/strings/parse_str_basic3.phpt
@@ -14681,9 +14681,9 @@ pass ext/standard/tests/url/parse_url_relative_scheme.phpt
 pass ext/standard/tests/versioning/php_sapi_name.phpt
 skip ext/standard/tests/versioning/php_sapi_name_variation001.phpt
 pass ext/standard/tests/versioning/phpversion.phpt
-fail ext/standard/tests/versioning/version_compare.phpt
-fail ext/standard/tests/versioning/version_compare_invalid_operator.phpt
-fail ext/standard/tests/versioning/version_compare_op_abbrev.phpt
+pass ext/standard/tests/versioning/version_compare.phpt
+pass ext/standard/tests/versioning/version_compare_invalid_operator.phpt
+pass ext/standard/tests/versioning/version_compare_op_abbrev.phpt
 pass ext/tokenizer/tests/001.phpt
 pass ext/tokenizer/tests/002.phpt
 pass ext/tokenizer/tests/003.phpt
@@ -14922,7 +14922,7 @@ skip ext/zlib/tests/bug55544.phpt
 skip ext/zlib/tests/bug60761.phpt
 fail ext/zlib/tests/bug61139.phpt
 pass ext/zlib/tests/bug61287.phpt
-fail ext/zlib/tests/bug61443.phpt
+pass ext/zlib/tests/bug61443.phpt
 pass ext/zlib/tests/bug61820.phpt
 skip ext/zlib/tests/bug65391.phpt
 fail ext/zlib/tests/bug71417.phpt
@@ -14935,7 +14935,7 @@ fail ext/zlib/tests/bug_40189.phpt
 fail ext/zlib/tests/bug_52944.phpt
 fail ext/zlib/tests/compress_zlib_wrapper.phpt
 pass ext/zlib/tests/deflate_add_basic.phpt
-fail ext/zlib/tests/deflate_add_buffer_full.phpt
+pass ext/zlib/tests/deflate_add_buffer_full.phpt
 pass ext/zlib/tests/deflate_add_error.phpt
 pass ext/zlib/tests/deflate_init_error.phpt
 pass ext/zlib/tests/deflate_init_reuse.phpt
@@ -15346,7 +15346,7 @@ skip tests/basic/oom_rfc1867_mb_encoding.phpt
 skip tests/basic/oom_rfc1867_post_vars.phpt
 skip tests/basic/oom_rfc1867_upload_progress.phpt
 fail tests/basic/precision.phpt
-fail tests/basic/req44164.phpt
+pass tests/basic/req44164.phpt
 fail tests/basic/req60524.phpt
 skip tests/basic/rfc1867_anonymous_upload.phpt
 skip tests/basic/rfc1867_array_upload.phpt
