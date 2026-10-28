@@ -376,7 +376,7 @@ pass Zend/tests/bug27798.phpt
 pass Zend/tests/bug28072.phpt
 pass Zend/tests/bug28377.phpt
 pass Zend/tests/bug28442.phpt
-fail Zend/tests/bug28444.phpt
+pass Zend/tests/bug28444.phpt
 fail Zend/tests/bug29015.phpt
 pass Zend/tests/bug29104.phpt
 fail Zend/tests/bug29210.phpt
@@ -393,7 +393,7 @@ pass Zend/tests/bug29896.phpt
 pass Zend/tests/bug29944.phpt
 pass Zend/tests/bug30080.phpt
 pass Zend/tests/bug30140.phpt
-fail Zend/tests/bug30161.phpt
+pass Zend/tests/bug30161.phpt
 pass Zend/tests/bug30162.phpt
 pass Zend/tests/bug30346.phpt
 pass Zend/tests/bug30394.phpt
@@ -491,7 +491,7 @@ fail Zend/tests/bug37632.phpt
 pass Zend/tests/bug37667.phpt
 pass Zend/tests/bug37707.phpt
 pass Zend/tests/bug37715.phpt
-fail Zend/tests/bug37811.phpt
+pass Zend/tests/bug37811.phpt
 pass Zend/tests/bug38146.phpt
 pass Zend/tests/bug38211.phpt
 pass Zend/tests/bug38220.phpt
@@ -552,7 +552,7 @@ pass Zend/tests/bug41961.phpt
 pass Zend/tests/bug42143.phpt
 pass Zend/tests/bug42211.phpt
 fail Zend/tests/bug42767.phpt
-fail Zend/tests/bug42772.phpt
+pass Zend/tests/bug42772.phpt
 pass Zend/tests/bug42798.phpt
 pass Zend/tests/bug42802.phpt
 pass Zend/tests/bug42817.phpt
@@ -721,7 +721,7 @@ fail Zend/tests/bug55156.phpt
 pass Zend/tests/bug55247.phpt
 pass Zend/tests/bug55305.phpt
 pass Zend/tests/bug55445.phpt
-fail Zend/tests/bug55578.phpt
+pass Zend/tests/bug55578.phpt
 pass Zend/tests/bug55705.phpt
 pass Zend/tests/bug55825.phpt
 fail Zend/tests/bug60099.phpt
@@ -749,7 +749,7 @@ pass Zend/tests/bug60771.phpt
 fail Zend/tests/bug60825.phpt
 pass Zend/tests/bug60833.phpt
 fail Zend/tests/bug60909_1.phpt
-fail Zend/tests/bug60909_2.phpt
+pass Zend/tests/bug60909_2.phpt
 fail Zend/tests/bug60978.phpt
 fail Zend/tests/bug61011.phpt
 fail Zend/tests/bug61025.phpt
@@ -976,7 +976,7 @@ fail Zend/tests/bug70918.phpt
 pass Zend/tests/bug70944.phpt
 fail Zend/tests/bug70957.phpt
 pass Zend/tests/bug70958.phpt
-fail Zend/tests/bug70967.phpt
+pass Zend/tests/bug70967.phpt
 fail Zend/tests/bug70987.phpt
 pass Zend/tests/bug70997.phpt
 pass Zend/tests/bug71030.phpt
@@ -1210,7 +1210,7 @@ fail Zend/tests/bug79818.phpt
 pass Zend/tests/bug79828.phpt
 fail Zend/tests/bug79836.phpt
 pass Zend/tests/bug79836_1.phpt
-fail Zend/tests/bug79836_2.phpt
+pass Zend/tests/bug79836_2.phpt
 pass Zend/tests/bug79836_3.phpt
 fail Zend/tests/bug79836_4.phpt
 fail Zend/tests/bug79862.phpt
@@ -1291,7 +1291,7 @@ pass Zend/tests/cast_to_bool.phpt
 fail Zend/tests/cast_to_double.phpt
 fail Zend/tests/cast_to_int.phpt
 fail Zend/tests/cast_to_object.phpt
-fail Zend/tests/cast_to_string.phpt
+pass Zend/tests/cast_to_string.phpt
 pass Zend/tests/catch.phpt
 fail Zend/tests/catch_static.phpt
 fail Zend/tests/class_alias_001.phpt
@@ -1339,8 +1339,8 @@ fail Zend/tests/class_on_object.phpt
 fail Zend/tests/class_properties_const.phpt
 pass Zend/tests/class_properties_dynamic.phpt
 pass Zend/tests/class_properties_static.phpt
-fail Zend/tests/class_toString_concat_non_interned_with_itself.phpt
-fail Zend/tests/class_toString_concat_with_itself.phpt
+pass Zend/tests/class_toString_concat_non_interned_with_itself.phpt
+pass Zend/tests/class_toString_concat_with_itself.phpt
 fail Zend/tests/class_underscore_as_name.phpt
 fail Zend/tests/class_uses_static.phpt
 pass Zend/tests/clone_001.phpt
@@ -1450,7 +1450,7 @@ fail Zend/tests/compare_005_64bit.phpt
 fail Zend/tests/compare_006_64bit.phpt
 fail Zend/tests/compound_assign_failure.phpt
 pass Zend/tests/compound_assign_with_numeric_strings.phpt
-fail Zend/tests/concat_001.phpt
+pass Zend/tests/concat_001.phpt
 pass Zend/tests/concat_002.phpt
 pass Zend/tests/concat_003.phpt
 fail Zend/tests/const_array_with_resource_key.phpt
@@ -2117,7 +2117,7 @@ pass Zend/tests/function_arguments/variadic_argument_type_error.phpt
 fail Zend/tests/function_arguments_001.phpt
 fail Zend/tests/function_arguments_002.phpt
 pass Zend/tests/function_arguments_003.phpt
-fail Zend/tests/function_default_argument_cache.phpt
+pass Zend/tests/function_default_argument_cache.phpt
 pass Zend/tests/function_exists_basic.phpt
 fail Zend/tests/function_outside_namespace.phpt
 fail Zend/tests/function_redecl.phpt
@@ -2157,7 +2157,7 @@ pass Zend/tests/gc_034.phpt
 fail Zend/tests/gc_035.phpt
 pass Zend/tests/gc_036.phpt
 fail Zend/tests/gc_037.phpt
-fail Zend/tests/gc_038.phpt
+pass Zend/tests/gc_038.phpt
 skip Zend/tests/gc_039.phpt
 fail Zend/tests/gc_041.phpt
 pass Zend/tests/gc_042.phpt
@@ -2430,7 +2430,7 @@ skip Zend/tests/gh12366.phpt
 pass Zend/tests/gh12457.phpt
 pass Zend/tests/gh12468_1.phpt
 pass Zend/tests/gh12468_2.phpt
-fail Zend/tests/gh12826.phpt
+pass Zend/tests/gh12826.phpt
 pass Zend/tests/gh13097_a.phpt
 pass Zend/tests/gh13097_b.phpt
 pass Zend/tests/gh13142.phpt
@@ -3014,10 +3014,10 @@ fail Zend/tests/list_empty_error_keyed.phpt
 pass Zend/tests/list_keyed.phpt
 pass Zend/tests/list_keyed_ArrayAccess.phpt
 fail Zend/tests/list_keyed_conversions.phpt
-fail Zend/tests/list_keyed_evaluation_order.phpt
+pass Zend/tests/list_keyed_evaluation_order.phpt
 pass Zend/tests/list_keyed_evaluation_order_2.phpt
 pass Zend/tests/list_keyed_evaluation_order_3.phpt
-fail Zend/tests/list_keyed_evaluation_order_nested.phpt
+pass Zend/tests/list_keyed_evaluation_order_nested.phpt
 fail Zend/tests/list_keyed_leading_comma.phpt
 fail Zend/tests/list_keyed_non_literals.phpt
 pass Zend/tests/list_keyed_trailing_comma.phpt
@@ -3060,7 +3060,7 @@ fail Zend/tests/magic_by_ref_006.phpt
 fail Zend/tests/magic_by_ref_007.phpt
 pass Zend/tests/magic_const_in_global_scope.phpt
 pass Zend/tests/magic_get_destroy_object.phpt
-fail Zend/tests/magic_methods_001.phpt
+pass Zend/tests/magic_methods_001.phpt
 fail Zend/tests/magic_methods_002.phpt
 fail Zend/tests/magic_methods_003.phpt
 fail Zend/tests/magic_methods_004.phpt
@@ -3964,7 +3964,7 @@ fail Zend/tests/return_types/never_no_variance.phpt
 fail Zend/tests/return_types/never_parameter.phpt
 pass Zend/tests/return_types/never_reflected.phpt
 fail Zend/tests/return_types/never_return_throw.phpt
-fail Zend/tests/return_types/never_tostring.phpt
+pass Zend/tests/return_types/never_tostring.phpt
 fail Zend/tests/return_types/reflection001.phpt
 fail Zend/tests/return_types/return_reference_separation.phpt
 pass Zend/tests/return_types/rfc001.phpt
@@ -4232,7 +4232,7 @@ fail Zend/tests/traits/language017.phpt
 fail Zend/tests/traits/language018.phpt
 fail Zend/tests/traits/language019.phpt
 pass Zend/tests/traits/language020.phpt
-fail Zend/tests/traits/methods_001.phpt
+pass Zend/tests/traits/methods_001.phpt
 pass Zend/tests/traits/methods_002.phpt
 pass Zend/tests/traits/methods_003.phpt
 pass Zend/tests/traits/no_static_arg_binding.phpt
@@ -5200,7 +5200,7 @@ fail ext/date/tests/DateTimeZone_compare.phpt
 fail ext/date/tests/DateTimeZone_compare_basic1.phpt
 fail ext/date/tests/DateTimeZone_construct_basic.phpt
 fail ext/date/tests/DateTimeZone_construct_error.phpt
-fail ext/date/tests/DateTimeZone_extends_basic1.phpt
+pass ext/date/tests/DateTimeZone_extends_basic1.phpt
 fail ext/date/tests/DateTimeZone_getLocation.phpt
 pass ext/date/tests/DateTimeZone_getName_basic1.phpt
 pass ext/date/tests/DateTimeZone_getOffset_basic1.phpt
@@ -5266,7 +5266,7 @@ pass ext/date/tests/DateTime_diff-spring-type2-type2.phpt
 pass ext/date/tests/DateTime_diff-spring-type2-type3.phpt
 fail ext/date/tests/DateTime_diff-spring-type3-type2.phpt
 fail ext/date/tests/DateTime_diff-spring-type3-type3.phpt
-fail ext/date/tests/DateTime_extends_basic1.phpt
+pass ext/date/tests/DateTime_extends_basic1.phpt
 pass ext/date/tests/DateTime_extends_basic2.phpt
 pass ext/date/tests/DateTime_extends_basic3.phpt
 fail ext/date/tests/DateTime_fix_createFromFormat.phpt
@@ -10912,7 +10912,7 @@ fail ext/spl/tests/bug36825.phpt
 fail ext/spl/tests/bug36941.phpt
 pass ext/spl/tests/bug37457.phpt
 pass ext/spl/tests/bug38325.phpt
-fail ext/spl/tests/bug38618.phpt
+pass ext/spl/tests/bug38618.phpt
 fail ext/spl/tests/bug40036.phpt
 fail ext/spl/tests/bug40091.phpt
 pass ext/spl/tests/bug40442.phpt
@@ -10967,14 +10967,14 @@ pass ext/spl/tests/bug61828.phpt
 fail ext/spl/tests/bug62059.phpt
 pass ext/spl/tests/bug62073.phpt
 pass ext/spl/tests/bug62262.phpt
-fail ext/spl/tests/bug62328.phpt
+pass ext/spl/tests/bug62328.phpt
 pass ext/spl/tests/bug62433.phpt
 pass ext/spl/tests/bug62616.phpt
 pass ext/spl/tests/bug62672.phpt
 pass ext/spl/tests/bug62904.phpt
 fail ext/spl/tests/bug62978.phpt
 fail ext/spl/tests/bug63680.phpt
-fail ext/spl/tests/bug64023.phpt
+pass ext/spl/tests/bug64023.phpt
 fail ext/spl/tests/bug64106.phpt
 pass ext/spl/tests/bug64228.phpt
 pass ext/spl/tests/bug64264.phpt
@@ -11773,7 +11773,7 @@ pass ext/standard/tests/array/array_product_variation2.phpt
 pass ext/standard/tests/array/array_product_variation3.phpt
 pass ext/standard/tests/array/array_product_variation4.phpt
 fail ext/standard/tests/array/array_product_variation5.phpt
-fail ext/standard/tests/array/array_push.phpt
+pass ext/standard/tests/array/array_push.phpt
 pass ext/standard/tests/array/array_push_basic.phpt
 fail ext/standard/tests/array/array_push_empty.phpt
 pass ext/standard/tests/array/array_push_error2.phpt
@@ -14296,7 +14296,7 @@ pass ext/standard/tests/strings/parse_str_memory_error.phpt
 pass ext/standard/tests/strings/pathinfo.phpt
 fail ext/standard/tests/strings/php_strip_whitespace.phpt
 pass ext/standard/tests/strings/print_basic.phpt
-fail ext/standard/tests/strings/print_variation1.phpt
+pass ext/standard/tests/strings/print_variation1.phpt
 pass ext/standard/tests/strings/printf_64bit.phpt
 pass ext/standard/tests/strings/printf_basic1.phpt
 pass ext/standard/tests/strings/printf_basic2.phpt
@@ -14548,9 +14548,9 @@ pass ext/standard/tests/strings/strtr_variation4.phpt
 fail ext/standard/tests/strings/strtr_variation6.phpt
 fail ext/standard/tests/strings/strtr_variation8.phpt
 pass ext/standard/tests/strings/strtr_with_reference.phpt
-fail ext/standard/tests/strings/strval.phpt
+pass ext/standard/tests/strings/strval.phpt
 pass ext/standard/tests/strings/strval_basic.phpt
-fail ext/standard/tests/strings/strval_error.phpt
+pass ext/standard/tests/strings/strval_error.phpt
 fail ext/standard/tests/strings/strval_variation1.phpt
 pass ext/standard/tests/strings/strval_variation2.phpt
 pass ext/standard/tests/strings/substr.phpt
@@ -15621,7 +15621,7 @@ fail tests/classes/static_this.phpt
 fail tests/classes/this.phpt
 fail tests/classes/tostring_001.phpt
 fail tests/classes/tostring_002.phpt
-fail tests/classes/tostring_003.phpt
+pass tests/classes/tostring_003.phpt
 fail tests/classes/tostring_004.phpt
 pass tests/classes/type_hinting_001.phpt
 pass tests/classes/type_hinting_002.phpt
