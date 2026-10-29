@@ -387,7 +387,7 @@ fail Zend/tests/bug29368_3.phpt
 pass Zend/tests/bug29505.phpt
 fail Zend/tests/bug29674.phpt
 pass Zend/tests/bug29689.phpt
-fail Zend/tests/bug29883.phpt
+pass Zend/tests/bug29883.phpt
 pass Zend/tests/bug29890.phpt
 pass Zend/tests/bug29896.phpt
 pass Zend/tests/bug29944.phpt
@@ -507,7 +507,7 @@ fail Zend/tests/bug38779_1.phpt
 fail Zend/tests/bug38808.phpt
 pass Zend/tests/bug39003.phpt
 pass Zend/tests/bug39017.phpt
-fail Zend/tests/bug39018.phpt
+pass Zend/tests/bug39018.phpt
 pass Zend/tests/bug39018_2.phpt
 pass Zend/tests/bug39036.phpt
 fail Zend/tests/bug39297.phpt
@@ -730,7 +730,7 @@ fail Zend/tests/bug60139.phpt
 pass Zend/tests/bug60161.phpt
 pass Zend/tests/bug60169.phpt
 pass Zend/tests/bug60350.phpt
-fail Zend/tests/bug60362.phpt
+pass Zend/tests/bug60362.phpt
 pass Zend/tests/bug60444.phpt
 pass Zend/tests/bug60536_001.phpt
 fail Zend/tests/bug60536_002.phpt
@@ -915,7 +915,7 @@ fail Zend/tests/bug69805.phpt
 pass Zend/tests/bug69825.phpt
 pass Zend/tests/bug69832.phpt
 pass Zend/tests/bug69871.phpt
-fail Zend/tests/bug69889.phpt
+pass Zend/tests/bug69889.phpt
 pass Zend/tests/bug69891.phpt
 pass Zend/tests/bug69892.phpt
 pass Zend/tests/bug69893.phpt
@@ -1086,7 +1086,7 @@ pass Zend/tests/bug74546.phpt
 fail Zend/tests/bug74603.phpt
 fail Zend/tests/bug74657.phpt
 pass Zend/tests/bug74810.phpt
-fail Zend/tests/bug74836.phpt
+pass Zend/tests/bug74836.phpt
 pass Zend/tests/bug74840.phpt
 pass Zend/tests/bug74862.phpt
 pass Zend/tests/bug74862_2.phpt
@@ -1455,7 +1455,7 @@ pass Zend/tests/concat_002.phpt
 pass Zend/tests/concat_003.phpt
 fail Zend/tests/const_array_with_resource_key.phpt
 pass Zend/tests/const_dereference_001.phpt
-fail Zend/tests/const_dereference_002.phpt
+pass Zend/tests/const_dereference_002.phpt
 pass Zend/tests/const_dereference_003.phpt
 pass Zend/tests/const_eval_and.phpt
 pass Zend/tests/const_expr_dim_on_null_warning.phpt
@@ -3404,7 +3404,7 @@ pass Zend/tests/numeric_strings/invalid_numeric_string_must_generate_warning_ass
 pass Zend/tests/numeric_strings/invalid_numeric_strings_must_generate_warning.phpt
 fail Zend/tests/numeric_strings/neg_num_string.phpt
 pass Zend/tests/numeric_strings/oss_fuzz_427814456.phpt
-fail Zend/tests/numeric_strings/string_offset.phpt
+pass Zend/tests/numeric_strings/string_offset.phpt
 pass Zend/tests/numeric_strings/trailling_whitespaces.phpt
 pass Zend/tests/object-null.phpt
 pass Zend/tests/object_array_cast.phpt
@@ -4027,7 +4027,7 @@ fail Zend/tests/str_offset_004.phpt
 pass Zend/tests/str_offset_005.phpt
 fail Zend/tests/str_offset_006.phpt
 fail Zend/tests/str_offset_007.phpt
-fail Zend/tests/str_offset_008.phpt
+pass Zend/tests/str_offset_008.phpt
 fail Zend/tests/strict_001.phpt
 fail Zend/tests/strict_002.phpt
 fail Zend/tests/string_offset_as_object.phpt
@@ -7927,7 +7927,7 @@ pass ext/opcache/tests/jit/gh12512.phpt
 pass ext/opcache/tests/jit/gh12512_2.phpt
 pass ext/opcache/tests/jit/gh12527.phpt
 fail ext/opcache/tests/jit/gh12585.phpt
-fail ext/opcache/tests/jit/gh12723-A.phpt
+pass ext/opcache/tests/jit/gh12723-A.phpt
 pass ext/opcache/tests/jit/gh12723-B.phpt
 fail ext/opcache/tests/jit/gh12747.phpt
 fail ext/opcache/tests/jit/gh12748.phpt
@@ -13866,7 +13866,7 @@ pass ext/standard/tests/streams/bug75031.phpt
 fail ext/standard/tests/streams/bug76136.phpt
 fail ext/standard/tests/streams/bug76857.phpt
 fail ext/standard/tests/streams/bug76859.phpt
-fail ext/standard/tests/streams/bug76943.phpt
+skip ext/standard/tests/streams/bug76943.phpt
 fail ext/standard/tests/streams/bug77069.phpt
 fail ext/standard/tests/streams/bug77080.phpt
 fail ext/standard/tests/streams/bug77664.phpt
@@ -15749,7 +15749,7 @@ pass tests/lang/bug27443.phpt
 pass tests/lang/bug27535.phpt
 fail tests/lang/bug28213.phpt
 pass tests/lang/bug28800.phpt
-fail tests/lang/bug29566.phpt
+pass tests/lang/bug29566.phpt
 pass tests/lang/bug29893.phpt
 pass tests/lang/bug29944.phpt
 pass tests/lang/bug30578.phpt
@@ -16072,6 +16072,6 @@ fail tests/strings/004.phpt
 fail tests/strings/bug22592.phpt
 fail tests/strings/bug26703.phpt
 pass tests/strings/offsets_chaining_1.phpt
-fail tests/strings/offsets_chaining_3.phpt
-fail tests/strings/offsets_chaining_5.phpt
-fail tests/strings/offsets_general.phpt
+pass tests/strings/offsets_chaining_3.phpt
+pass tests/strings/offsets_chaining_5.phpt
+pass tests/strings/offsets_general.phpt
