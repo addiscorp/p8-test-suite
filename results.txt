@@ -1294,7 +1294,7 @@ fail Zend/tests/cast_to_object.phpt
 pass Zend/tests/cast_to_string.phpt
 pass Zend/tests/catch.phpt
 fail Zend/tests/catch_static.phpt
-fail Zend/tests/class_alias_001.phpt
+pass Zend/tests/class_alias_001.phpt
 fail Zend/tests/class_alias_002.phpt
 fail Zend/tests/class_alias_004.phpt
 pass Zend/tests/class_alias_005.phpt
@@ -1309,7 +1309,7 @@ pass Zend/tests/class_alias_013.phpt
 pass Zend/tests/class_alias_014.phpt
 pass Zend/tests/class_alias_016.phpt
 fail Zend/tests/class_alias_017.phpt
-fail Zend/tests/class_alias_018.phpt
+pass Zend/tests/class_alias_018.phpt
 fail Zend/tests/class_alias_019.phpt
 pass Zend/tests/class_alias_020.phpt
 pass Zend/tests/class_alias_021.phpt
