@@ -1,7 +1,7 @@
 # Repository guidelines
 
-The four data files (`php-src.json`, `target.txt`, `results.txt`,
-`run.json`) are the whole product of this repository. Keep website, runner,
+The five data files (`php-src.json`, `target.txt`, `results.txt`,
+`run.json`, `apps.jsonl`) are the whole product of this repository. Keep website, runner,
 build and deployment code out of it.
 
 ## Changes
@@ -13,6 +13,8 @@ build and deployment code out of it.
   that commit in `run.json`. Never edit a result by hand.
 - `target.txt` changes only when the PHP version changes, and then
   `php-src.json` changes with it.
+- `apps.jsonl` comes from p8's app gate at the same commit as `run.json`
+  (its first line names it). Never edit a check by hand.
 
 ## Releases
 
