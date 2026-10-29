@@ -13,7 +13,7 @@ p8-test-suite.addis.gg draws it as one square per test.
 | `target.txt` | the 16,077 php-src tests that real PHP 8.4.27 passes, sorted bytewise. "100%" for p8 means passing every one |
 | `results.txt` | one line per target test, in `target.txt` order: `pass`, `fail` or `skip`, a space, the test's path in php-src |
 | `run.json` | the run behind `results.txt`: PHP version, the p8 commit, when it ran, and the counts |
-| `apps.jsonl` | real apps run under p8: the run (its p8 commit), each app (name, version, kind, source), then one line per check: the apps it shows working, what it did, as whom, and whether it matched PHP |
+| `apps.jsonl` | apps and frameworks run under p8: the run (its p8 commit), each app (name, version, kind: application, framework, plugin or theme; what it is in a line; source), then one line per check: the apps it shows working, what it did, as whom, and whether it matched PHP |
 
 In `results.txt`:
 
