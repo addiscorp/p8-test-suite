@@ -9798,7 +9798,7 @@ fail ext/reflection/tests/ReflectionFiber_bug_gh11121_2.phpt
 fail ext/reflection/tests/ReflectionFiber_errors.phpt
 fail ext/reflection/tests/ReflectionFiber_notrace_1.phpt
 fail ext/reflection/tests/ReflectionFiber_notrace_2.phpt
-fail ext/reflection/tests/ReflectionFunction_001.phpt
+pass ext/reflection/tests/ReflectionFunction_001.phpt
 fail ext/reflection/tests/ReflectionFunction_construct.001.phpt
 fail ext/reflection/tests/ReflectionFunction_getClosureCalledClass.phpt
 pass ext/reflection/tests/ReflectionFunction_getClosureScopeClass.phpt
@@ -9847,7 +9847,7 @@ fail ext/reflection/tests/ReflectionMethod_getDocComment_basic.phpt
 fail ext/reflection/tests/ReflectionMethod_getDocComment_property_list.phpt
 fail ext/reflection/tests/ReflectionMethod_getModifiers_basic.phpt
 fail ext/reflection/tests/ReflectionMethod_getPrototype_basic.phpt
-fail ext/reflection/tests/ReflectionMethod_getStaticVariables_basic.phpt
+pass ext/reflection/tests/ReflectionMethod_getStaticVariables_basic.phpt
 fail ext/reflection/tests/ReflectionMethod_getStaticVariables_basic_extra_bleed.phpt
 fail ext/reflection/tests/ReflectionMethod_hasPrototype_basic.phpt
 pass ext/reflection/tests/ReflectionMethod_invokeArgs_basic.phpt
@@ -9944,7 +9944,7 @@ pass ext/reflection/tests/bug30209.phpt
 fail ext/reflection/tests/bug30856.phpt
 pass ext/reflection/tests/bug30961.phpt
 pass ext/reflection/tests/bug31651.phpt
-fail ext/reflection/tests/bug32981.phpt
+pass ext/reflection/tests/bug32981.phpt
 pass ext/reflection/tests/bug33312.phpt
 fail ext/reflection/tests/bug33389.phpt
 pass ext/reflection/tests/bug36308.phpt
@@ -10104,7 +10104,7 @@ fail ext/reflection/tests/internal_parameter_default_value/ReflectionParameter_t
 fail ext/reflection/tests/internal_parameter_default_value/check_all.phpt
 fail ext/reflection/tests/iterable_Reflection.phpt
 pass ext/reflection/tests/new_in_attributes.phpt
-fail ext/reflection/tests/new_in_constexpr.phpt
+pass ext/reflection/tests/new_in_constexpr.phpt
 fail ext/reflection/tests/parameters_001.phpt
 fail ext/reflection/tests/parameters_002.phpt
 fail ext/reflection/tests/property_exists.phpt
