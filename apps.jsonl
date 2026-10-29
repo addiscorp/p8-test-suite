@@ -1,15 +1,15 @@
-{"type":"run","p8":"19a48e80a1547f6f29da3c443d80b30d659e9c8b","php":"8.4.27","wordpress":"7.1.4"}
-{"type":"app","name":"WordPress","version":"7.1.4","kind":"application","source":"https://wordpress.org/wordpress-7.1.4.tar.gz"}
-{"type":"app","name":"Twenty Twenty-Five","version":"1.5","kind":"theme","source":"https://wordpress.org/themes/twentytwentyfive/"}
-{"type":"app","name":"Twenty Twenty-Four","version":"1.6","kind":"theme","source":"https://wordpress.org/themes/twentytwentyfour/"}
-{"type":"app","name":"Twenty Twenty-Three","version":"1.7","kind":"theme","source":"https://wordpress.org/themes/twentytwentythree/"}
-{"type":"app","name":"Twenty Twenty-One","version":"2.9","kind":"theme","source":"https://wordpress.org/themes/twentytwentyone/"}
-{"type":"app","name":"Akismet","version":"5.7.2","kind":"plugin","source":"https://wordpress.org/plugins/akismet/"}
-{"type":"app","name":"Hello Dolly","version":"1.7.2","kind":"plugin","source":"https://wordpress.org/plugins/hello-dolly/"}
-{"type":"app","name":"Classic Editor","version":"1.7.0","kind":"plugin","source":"https://wordpress.org/plugins/classic-editor/"}
-{"type":"app","name":"Contact Form 7","version":"6.2.3","kind":"plugin","source":"https://wordpress.org/plugins/contact-form-7/"}
-{"type":"app","name":"Yoast SEO","version":"28.8","kind":"plugin","source":"https://wordpress.org/plugins/wordpress-seo/"}
-{"type":"app","name":"WooCommerce","version":"11.2.1","kind":"plugin","source":"https://wordpress.org/plugins/woocommerce/"}
+{"type":"run","p8":"63259e59fefea4f2906de228835eda91dabf1f4f","php":"8.4.27","wordpress":"7.1.4"}
+{"type":"app","name":"WordPress","version":"7.1.4","kind":"application","about":"The website and blog platform","source":"https://wordpress.org/wordpress-7.1.4.tar.gz"}
+{"type":"app","name":"Twenty Twenty-Five","version":"1.5","kind":"theme","about":"WordPress's default theme since 2025, built from blocks","source":"https://wordpress.org/themes/twentytwentyfive/"}
+{"type":"app","name":"Twenty Twenty-Four","version":"1.6","kind":"theme","about":"WordPress's 2024 default theme, built from blocks","source":"https://wordpress.org/themes/twentytwentyfour/"}
+{"type":"app","name":"Twenty Twenty-Three","version":"1.7","kind":"theme","about":"WordPress's 2023 default theme, built from blocks","source":"https://wordpress.org/themes/twentytwentythree/"}
+{"type":"app","name":"Twenty Twenty-One","version":"2.9","kind":"theme","about":"WordPress's 2021 default theme, a classic PHP template theme","source":"https://wordpress.org/themes/twentytwentyone/"}
+{"type":"app","name":"Akismet","version":"5.7.2","kind":"plugin","about":"Filters spam out of comments","source":"https://wordpress.org/plugins/akismet/"}
+{"type":"app","name":"Hello Dolly","version":"1.7.2","kind":"plugin","about":"The sample plugin that ships with WordPress","source":"https://wordpress.org/plugins/hello-dolly/"}
+{"type":"app","name":"Classic Editor","version":"1.7.0","kind":"plugin","about":"Brings back the post editor from before blocks","source":"https://wordpress.org/plugins/classic-editor/"}
+{"type":"app","name":"Contact Form 7","version":"6.2.3","kind":"plugin","about":"Contact forms that send mail","source":"https://wordpress.org/plugins/contact-form-7/"}
+{"type":"app","name":"Yoast SEO","version":"28.8","kind":"plugin","about":"Search-engine optimisation: titles, meta tags, sitemaps, structured data","source":"https://wordpress.org/plugins/wordpress-seo/"}
+{"type":"app","name":"WooCommerce","version":"11.2.1","kind":"plugin","about":"An online shop: products, cart, checkout and orders","source":"https://wordpress.org/plugins/woocommerce/"}
 {"type":"check","apps":["WordPress"],"check":"wp_install()","what":"install","as":"admin","status":"pass","bytes":100}
 {"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/","what":"page","as":"visitor","status":"pass","bytes":69064}
 {"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?p=1","what":"page","as":"visitor","status":"pass","bytes":71180}
@@ -95,8 +95,9 @@
 {"type":"check","apps":["Yoast SEO"],"check":"/?sitemap=index","what":"page","as":"visitor","status":"pass","bytes":27833}
 {"type":"check","apps":["Yoast SEO"],"check":"/?feed=rss2","what":"page","as":"visitor","status":"pass","bytes":3627}
 {"type":"check","apps":["Yoast SEO"],"check":"/wp-admin/","what":"page","as":"admin","status":"pass","bytes":0}
-{"type":"check","apps":["Yoast SEO"],"check":"/wp-admin/post.php?post=1&action=edit","what":"page","as":"admin","status":"pass","bytes":224386}
-{"type":"check","apps":["Yoast SEO"],"check":"/wp-admin/edit.php","what":"page","as":"admin","status":"pass","bytes":102556}
+{"type":"check","apps":["Yoast SEO"],"check":"/wp-admin/admin.php?page=wpseo_dashboard","what":"page","as":"admin","status":"pass","bytes":136131}
+{"type":"check","apps":["Yoast SEO"],"check":"/wp-admin/post.php?post=1&action=edit","what":"page","as":"admin","status":"pass","bytes":224388}
+{"type":"check","apps":["Yoast SEO"],"check":"/wp-admin/edit.php","what":"page","as":"admin","status":"pass","bytes":102217}
 {"type":"check","apps":["WooCommerce"],"check":"activate WooCommerce","what":"activate","as":"admin","status":"pass","bytes":218}
 {"type":"check","apps":["WooCommerce"],"check":"/","what":"page","as":"visitor","status":"pass","bytes":35242}
 {"type":"check","apps":["WooCommerce"],"check":"/?post_type=product","what":"page","as":"visitor","status":"pass","bytes":33379}
