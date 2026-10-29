@@ -484,7 +484,7 @@ pass Zend/tests/bug36568.phpt
 pass Zend/tests/bug36759.phpt
 pass Zend/tests/bug37046.phpt
 fail Zend/tests/bug37138.phpt
-fail Zend/tests/bug37144.phpt
+pass Zend/tests/bug37144.phpt
 pass Zend/tests/bug37212.phpt
 pass Zend/tests/bug37251.phpt
 fail Zend/tests/bug37632.phpt
@@ -689,8 +689,8 @@ fail Zend/tests/bug52484_3.phpt
 pass Zend/tests/bug52508.phpt
 fail Zend/tests/bug52614.phpt
 pass Zend/tests/bug52879.phpt
-fail Zend/tests/bug52939.phpt
-fail Zend/tests/bug52940.phpt
+pass Zend/tests/bug52939.phpt
+pass Zend/tests/bug52940.phpt
 fail Zend/tests/bug53305.phpt
 fail Zend/tests/bug53347.phpt
 fail Zend/tests/bug53432.phpt
@@ -2184,7 +2184,7 @@ pass Zend/tests/generators/bug63066.phpt
 pass Zend/tests/generators/bug65035.phpt
 pass Zend/tests/generators/bug65161.phpt
 pass Zend/tests/generators/bug66041.phpt
-fail Zend/tests/generators/bug67497.phpt
+pass Zend/tests/generators/bug67497.phpt
 fail Zend/tests/generators/bug69419.phpt
 pass Zend/tests/generators/bug70904.phpt
 fail Zend/tests/generators/bug70965.phpt
@@ -5817,7 +5817,7 @@ pass ext/date/tests/timezone_open_warning.phpt
 fail ext/date/tests/timezone_transitions_get_basic1.phpt
 fail ext/date/tests/timezone_version_get.phpt
 fail ext/date/tests/timezone_version_get_basic1.phpt
-fail ext/date/tests/timezones-list.phpt
+pass ext/date/tests/timezones-list.phpt
 pass ext/date/tests/timezones.phpt
 fail ext/date/tests/unserialize-test.phpt
 fail ext/dom/tests/DOM4_ChildNode_wrong_document.phpt
@@ -11683,8 +11683,8 @@ pass ext/standard/tests/array/array_keys_basic.phpt
 pass ext/standard/tests/array/array_keys_on_GLOBALS.phpt
 pass ext/standard/tests/array/array_keys_variation_001.phpt
 pass ext/standard/tests/array/array_keys_variation_002.phpt
-fail ext/standard/tests/array/array_keys_variation_003.phpt
-fail ext/standard/tests/array/array_keys_variation_004.phpt
+pass ext/standard/tests/array/array_keys_variation_003.phpt
+pass ext/standard/tests/array/array_keys_variation_004.phpt
 fail ext/standard/tests/array/array_keys_variation_005.phpt
 pass ext/standard/tests/array/array_map_001.phpt
 pass ext/standard/tests/array/array_map_basic.phpt
@@ -11775,7 +11775,7 @@ pass ext/standard/tests/array/array_product_variation4.phpt
 fail ext/standard/tests/array/array_product_variation5.phpt
 pass ext/standard/tests/array/array_push.phpt
 pass ext/standard/tests/array/array_push_basic.phpt
-fail ext/standard/tests/array/array_push_empty.phpt
+pass ext/standard/tests/array/array_push_empty.phpt
 pass ext/standard/tests/array/array_push_error2.phpt
 pass ext/standard/tests/array/array_push_variation2.phpt
 pass ext/standard/tests/array/array_push_variation3.phpt
@@ -11878,7 +11878,7 @@ pass ext/standard/tests/array/array_unique_variation9.phpt
 pass ext/standard/tests/array/array_unshift.phpt
 pass ext/standard/tests/array/array_unshift_basic1.phpt
 pass ext/standard/tests/array/array_unshift_basic2.phpt
-fail ext/standard/tests/array/array_unshift_empty.phpt
+pass ext/standard/tests/array/array_unshift_empty.phpt
 pass ext/standard/tests/array/array_unshift_object.phpt
 pass ext/standard/tests/array/array_unshift_variation2.phpt
 pass ext/standard/tests/array/array_unshift_variation3.phpt
@@ -12033,7 +12033,7 @@ pass ext/standard/tests/array/bug69413.phpt
 pass ext/standard/tests/array/bug69674.phpt
 pass ext/standard/tests/array/bug69723.phpt
 pass ext/standard/tests/array/bug70250.phpt
-fail ext/standard/tests/array/bug70668.phpt
+pass ext/standard/tests/array/bug70668.phpt
 fail ext/standard/tests/array/bug70713.phpt
 pass ext/standard/tests/array/bug70808.phpt
 pass ext/standard/tests/array/bug70910.phpt
@@ -15783,7 +15783,7 @@ pass tests/lang/engine_assignExecutionOrder_004.phpt
 fail tests/lang/engine_assignExecutionOrder_005.phpt
 fail tests/lang/engine_assignExecutionOrder_006.phpt
 fail tests/lang/engine_assignExecutionOrder_007.phpt
-fail tests/lang/engine_assignExecutionOrder_008.phpt
+pass tests/lang/engine_assignExecutionOrder_008.phpt
 pass tests/lang/engine_assignExecutionOrder_009.phpt
 pass tests/lang/error_2_exception_001.phpt
 pass tests/lang/execution_order.phpt
