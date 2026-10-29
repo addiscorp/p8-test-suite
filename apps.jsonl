@@ -1,0 +1,109 @@
+{"type":"run","p8":"19a48e80a1547f6f29da3c443d80b30d659e9c8b","php":"8.4.27","wordpress":"7.1.4"}
+{"type":"app","name":"WordPress","version":"7.1.4","kind":"application","source":"https://wordpress.org/wordpress-7.1.4.tar.gz"}
+{"type":"app","name":"Twenty Twenty-Five","version":"1.5","kind":"theme","source":"https://wordpress.org/themes/twentytwentyfive/"}
+{"type":"app","name":"Twenty Twenty-Four","version":"1.6","kind":"theme","source":"https://wordpress.org/themes/twentytwentyfour/"}
+{"type":"app","name":"Twenty Twenty-Three","version":"1.7","kind":"theme","source":"https://wordpress.org/themes/twentytwentythree/"}
+{"type":"app","name":"Twenty Twenty-One","version":"2.9","kind":"theme","source":"https://wordpress.org/themes/twentytwentyone/"}
+{"type":"app","name":"Akismet","version":"5.7.2","kind":"plugin","source":"https://wordpress.org/plugins/akismet/"}
+{"type":"app","name":"Hello Dolly","version":"1.7.2","kind":"plugin","source":"https://wordpress.org/plugins/hello-dolly/"}
+{"type":"app","name":"Classic Editor","version":"1.7.0","kind":"plugin","source":"https://wordpress.org/plugins/classic-editor/"}
+{"type":"app","name":"Contact Form 7","version":"6.2.3","kind":"plugin","source":"https://wordpress.org/plugins/contact-form-7/"}
+{"type":"app","name":"Yoast SEO","version":"28.8","kind":"plugin","source":"https://wordpress.org/plugins/wordpress-seo/"}
+{"type":"app","name":"WooCommerce","version":"11.2.1","kind":"plugin","source":"https://wordpress.org/plugins/woocommerce/"}
+{"type":"check","apps":["WordPress"],"check":"wp_install()","what":"install","as":"admin","status":"pass","bytes":100}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/","what":"page","as":"visitor","status":"pass","bytes":69064}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?p=1","what":"page","as":"visitor","status":"pass","bytes":71180}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?feed=rss2","what":"page","as":"visitor","status":"pass","bytes":1595}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?rest_route=/","what":"page","as":"visitor","status":"pass","bytes":197366}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?s=hello","what":"page","as":"visitor","status":"pass","bytes":74869}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/wp-login.php","what":"page","as":"visitor","status":"pass","bytes":5614}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/wp-admin/","what":"page","as":"admin","status":"pass","bytes":130556}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/wp-admin/edit.php","what":"page","as":"admin","status":"pass","bytes":110466}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/wp-admin/post-new.php","what":"page","as":"admin","status":"pass","bytes":722081}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/wp-admin/options-general.php","what":"page","as":"admin","status":"pass","bytes":197548}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/wp-admin/users.php","what":"page","as":"admin","status":"pass","bytes":95613}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/wp-admin/plugins.php","what":"page","as":"admin","status":"pass","bytes":108485}
+{"type":"check","apps":["WordPress"],"check":"POST /wp-comments-post.php","what":"write","as":"visitor","status":"pass","bytes":0}
+{"type":"check","apps":["WordPress"],"check":"mail sent by POST /wp-comments-post.php","what":"mail","as":"visitor","status":"pass","bytes":977}
+{"type":"check","apps":["WordPress"],"check":"POST /wp-admin/post.php","what":"write","as":"admin","status":"pass","bytes":0}
+{"type":"check","apps":["WordPress"],"check":"POST /xmlrpc.php wp.newPost","what":"write","as":"visitor","status":"pass","bytes":176}
+{"type":"check","apps":["WordPress"],"check":"rows the writes left (posts, meta, comments, terms)","what":"database","as":"admin","status":"pass","bytes":9837}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/ after the writes","what":"page","as":"visitor","status":"pass","bytes":70932}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?p=1 after the writes","what":"page","as":"visitor","status":"pass","bytes":72939}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?p=6 after the writes","what":"page","as":"visitor","status":"pass","bytes":68191}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?feed=rss2 after the writes","what":"page","as":"visitor","status":"pass","bytes":2848}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?tag=xml-rpc after the writes","what":"page","as":"visitor","status":"pass","bytes":68146}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/wp-admin/edit-comments.php after the writes","what":"page","as":"admin","status":"pass","bytes":116645}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/wp-admin/edit.php after the writes","what":"page","as":"admin","status":"pass","bytes":117210}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?cat=1 after the writes","what":"page","as":"visitor","status":"pass","bytes":70134}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?tag=rust after the writes","what":"page","as":"visitor","status":"pass","bytes":68167}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?author=1 after the writes","what":"page","as":"visitor","status":"pass","bytes":70092}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?p=9999 after the writes","what":"page","as":"visitor","status":"pass","bytes":57860}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?m=2026 after the writes","what":"page","as":"visitor","status":"pass","bytes":69798}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?page_id=2 after the writes","what":"page","as":"visitor","status":"pass","bytes":68931}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?feed=comments-rss2 after the writes","what":"page","as":"visitor","status":"pass","bytes":1585}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?feed=atom after the writes","what":"page","as":"visitor","status":"pass","bytes":3165}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?s=p8&post_type=post after the writes","what":"page","as":"visitor","status":"pass","bytes":76418}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?p=1&replytocom=1 after the writes","what":"page","as":"visitor","status":"pass","bytes":72984}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/wp-login.php?action=lostpassword after the writes","what":"page","as":"visitor","status":"pass","bytes":2119}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/wp-sitemap.xml after the writes","what":"page","as":"visitor","status":"pass","bytes":566}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?sitemap=index after the writes","what":"page","as":"visitor","status":"pass","bytes":690}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?sitemap=posts&sitemap-subtype=post&paged=1 after the writes","what":"page","as":"visitor","status":"pass","bytes":458}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?rest_route=/wp/v2/posts after the writes","what":"page","as":"visitor","status":"pass","bytes":5856}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?rest_route=/wp/v2/users after the writes","what":"page","as":"visitor","status":"pass","bytes":730}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?rest_route=/wp/v2/comments after the writes","what":"page","as":"visitor","status":"pass","bytes":1289}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?rest_route=/wp/v2/categories after the writes","what":"page","as":"visitor","status":"pass","bytes":650}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?rest_route=/wp/v2/pages/2 after the writes","what":"page","as":"visitor","status":"pass","bytes":3095}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?rest_route=/wp/v2/types after the writes","what":"page","as":"visitor","status":"pass","bytes":5717}
+{"type":"check","apps":["WordPress","Twenty Twenty-Five"],"check":"/?rest_route=/oembed/1.0/embed&url=http%3A%2F%2Flocalhost%2F%3Fp%3D1 after the writes","what":"page","as":"visitor","status":"pass","bytes":2063}
+{"type":"check","apps":["Twenty Twenty-Four","Hello Dolly","Akismet"],"check":"switch to Twenty Twenty-Four, activate Hello Dolly and Akismet","what":"activate","as":"admin","status":"pass","bytes":202}
+{"type":"check","apps":["Twenty Twenty-Four","Hello Dolly","Akismet"],"check":"/","what":"page","as":"visitor","status":"pass","bytes":93528}
+{"type":"check","apps":["Twenty Twenty-Four","Hello Dolly","Akismet"],"check":"/?p=1","what":"page","as":"visitor","status":"pass","bytes":76852}
+{"type":"check","apps":["Twenty Twenty-Four","Hello Dolly","Akismet"],"check":"/?cat=1","what":"page","as":"visitor","status":"pass","bytes":83085}
+{"type":"check","apps":["Twenty Twenty-Four","Hello Dolly","Akismet"],"check":"/?page_id=2","what":"page","as":"visitor","status":"pass","bytes":76909}
+{"type":"check","apps":["Twenty Twenty-Four","Hello Dolly","Akismet"],"check":"/?p=9999","what":"page","as":"visitor","status":"pass","bytes":74971}
+{"type":"check","apps":["Twenty Twenty-Four","Hello Dolly","Akismet"],"check":"/wp-admin/","what":"page","as":"admin","status":"pass","bytes":98223}
+{"type":"check","apps":["Twenty Twenty-Four","Hello Dolly","Akismet"],"check":"/wp-admin/plugins.php","what":"page","as":"admin","status":"pass","bytes":72938}
+{"type":"check","apps":["Twenty Twenty-Four","Hello Dolly","Akismet"],"check":"/wp-admin/themes.php","what":"page","as":"admin","status":"pass","bytes":75919}
+{"type":"check","apps":["Twenty Twenty-Four","Hello Dolly","Akismet"],"check":"/wp-admin/options-general.php?page=akismet-key-config","what":"page","as":"admin","status":"pass","bytes":54112}
+{"type":"check","apps":["Twenty Twenty-Four","Hello Dolly","Akismet"],"check":"/wp-admin/site-editor.php","what":"page","as":"admin","status":"pass","bytes":660050}
+{"type":"check","apps":["Twenty Twenty-Four","Hello Dolly","Akismet"],"check":"/wp-admin/customize.php","what":"page","as":"admin","status":"pass","bytes":192347}
+{"type":"check","apps":["Twenty Twenty-Three"],"check":"switch to Twenty Twenty-Three","what":"activate","as":"admin","status":"pass","bytes":145}
+{"type":"check","apps":["Twenty Twenty-Three"],"check":"/","what":"page","as":"visitor","status":"pass","bytes":73280}
+{"type":"check","apps":["Twenty Twenty-Three"],"check":"/?p=1","what":"page","as":"visitor","status":"pass","bytes":64973}
+{"type":"check","apps":["Twenty Twenty-Three"],"check":"/?page_id=2","what":"page","as":"visitor","status":"pass","bytes":63778}
+{"type":"check","apps":["Twenty Twenty-Three"],"check":"/?s=hello","what":"page","as":"visitor","status":"pass","bytes":64169}
+{"type":"check","apps":["Twenty Twenty-Three"],"check":"/wp-admin/site-editor.php","what":"page","as":"admin","status":"pass","bytes":528546}
+{"type":"check","apps":["Twenty Twenty-One","Classic Editor","Contact Form 7"],"check":"switch to Twenty Twenty-One, activate Classic Editor and Contact Form 7","what":"activate","as":"admin","status":"pass","bytes":313}
+{"type":"check","apps":["Twenty Twenty-One","Classic Editor","Contact Form 7"],"check":"/","what":"page","as":"visitor","status":"pass","bytes":29330}
+{"type":"check","apps":["Twenty Twenty-One","Classic Editor","Contact Form 7"],"check":"/?p=1","what":"page","as":"visitor","status":"pass","bytes":33557}
+{"type":"check","apps":["Twenty Twenty-One","Classic Editor","Contact Form 7"],"check":"/?page_id=2","what":"page","as":"visitor","status":"pass","bytes":30045}
+{"type":"check","apps":["Twenty Twenty-One","Classic Editor","Contact Form 7"],"check":"/?cat=1","what":"page","as":"visitor","status":"pass","bytes":29904}
+{"type":"check","apps":["Twenty Twenty-One","Classic Editor","Contact Form 7"],"check":"/?p=9999","what":"page","as":"visitor","status":"pass","bytes":26586}
+{"type":"check","apps":["Twenty Twenty-One","Classic Editor","Contact Form 7"],"check":"/wp-admin/","what":"page","as":"admin","status":"pass","bytes":95428}
+{"type":"check","apps":["Twenty Twenty-One","Classic Editor","Contact Form 7"],"check":"/wp-admin/post-new.php","what":"page","as":"admin","status":"pass","bytes":176819}
+{"type":"check","apps":["Twenty Twenty-One","Classic Editor","Contact Form 7"],"check":"/wp-admin/post.php?post=1&action=edit","what":"page","as":"admin","status":"pass","bytes":182648}
+{"type":"check","apps":["Twenty Twenty-One","Classic Editor","Contact Form 7"],"check":"/wp-admin/admin.php?page=wpcf7","what":"page","as":"admin","status":"pass","bytes":53398}
+{"type":"check","apps":["Twenty Twenty-One","Classic Editor","Contact Form 7"],"check":"/wp-admin/admin.php?page=wpcf7-new","what":"page","as":"admin","status":"pass","bytes":100289}
+{"type":"check","apps":["Twenty Twenty-One","Classic Editor","Contact Form 7"],"check":"/wp-admin/options-writing.php","what":"page","as":"admin","status":"pass","bytes":50050}
+{"type":"check","apps":["Yoast SEO"],"check":"activate Yoast SEO","what":"activate","as":"admin","status":"pass","bytes":186}
+{"type":"check","apps":["Yoast SEO"],"check":"/","what":"page","as":"visitor","status":"pass","bytes":31583}
+{"type":"check","apps":["Yoast SEO"],"check":"/?p=1","what":"page","as":"visitor","status":"pass","bytes":37996}
+{"type":"check","apps":["Yoast SEO"],"check":"/?cat=1","what":"page","as":"visitor","status":"pass","bytes":32457}
+{"type":"check","apps":["Yoast SEO"],"check":"/?page_id=2","what":"page","as":"visitor","status":"pass","bytes":32004}
+{"type":"check","apps":["Yoast SEO"],"check":"/?author=1","what":"page","as":"visitor","status":"pass","bytes":33783}
+{"type":"check","apps":["Yoast SEO"],"check":"/?sitemap=index","what":"page","as":"visitor","status":"pass","bytes":27833}
+{"type":"check","apps":["Yoast SEO"],"check":"/?feed=rss2","what":"page","as":"visitor","status":"pass","bytes":3627}
+{"type":"check","apps":["Yoast SEO"],"check":"/wp-admin/","what":"page","as":"admin","status":"pass","bytes":0}
+{"type":"check","apps":["Yoast SEO"],"check":"/wp-admin/post.php?post=1&action=edit","what":"page","as":"admin","status":"pass","bytes":224386}
+{"type":"check","apps":["Yoast SEO"],"check":"/wp-admin/edit.php","what":"page","as":"admin","status":"pass","bytes":102556}
+{"type":"check","apps":["WooCommerce"],"check":"activate WooCommerce","what":"activate","as":"admin","status":"pass","bytes":218}
+{"type":"check","apps":["WooCommerce"],"check":"/","what":"page","as":"visitor","status":"pass","bytes":35242}
+{"type":"check","apps":["WooCommerce"],"check":"/?post_type=product","what":"page","as":"visitor","status":"pass","bytes":33379}
+{"type":"check","apps":["WooCommerce"],"check":"/?p=1","what":"page","as":"visitor","status":"pass","bytes":41655}
+{"type":"check","apps":["WooCommerce"],"check":"/?rest_route=/wc/store/v1/products","what":"page","as":"visitor","status":"pass","bytes":2}
+{"type":"check","apps":["WooCommerce"],"check":"/wp-admin/","what":"page","as":"admin","status":"pass","bytes":0}
+{"type":"check","apps":["WooCommerce"],"check":"/wp-admin/edit.php?post_type=product","what":"page","as":"admin","status":"pass","bytes":0}
+{"type":"check","apps":["WooCommerce"],"check":"/wp-admin/post-new.php?post_type=product","what":"page","as":"admin","status":"pass","bytes":390155}
+{"type":"check","apps":["WooCommerce"],"check":"/wp-admin/admin.php?page=wc-settings","what":"page","as":"admin","status":"pass","bytes":383498}
+{"type":"check","apps":["WooCommerce"],"check":"/wp-admin/edit.php?post_type=shop_order","what":"page","as":"admin","status":"pass","bytes":0}
