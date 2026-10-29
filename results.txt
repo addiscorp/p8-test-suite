@@ -51,7 +51,7 @@ fail Zend/tests/access_modifiers_004.phpt
 fail Zend/tests/access_modifiers_005.phpt
 fail Zend/tests/access_modifiers_006.phpt
 fail Zend/tests/access_modifiers_007.phpt
-fail Zend/tests/access_modifiers_008.phpt
+pass Zend/tests/access_modifiers_008.phpt
 fail Zend/tests/access_modifiers_009.phpt
 fail Zend/tests/access_modifiers_010.phpt
 pass Zend/tests/access_modifiers_011.phpt
@@ -487,7 +487,7 @@ fail Zend/tests/bug37138.phpt
 pass Zend/tests/bug37144.phpt
 pass Zend/tests/bug37212.phpt
 pass Zend/tests/bug37251.phpt
-fail Zend/tests/bug37632.phpt
+pass Zend/tests/bug37632.phpt
 pass Zend/tests/bug37667.phpt
 pass Zend/tests/bug37707.phpt
 pass Zend/tests/bug37715.phpt
@@ -2450,10 +2450,10 @@ pass Zend/tests/gh13670_002.phpt
 pass Zend/tests/gh13670_003.phpt
 fail Zend/tests/gh13931.phpt
 pass Zend/tests/gh14003.phpt
-fail Zend/tests/gh14009_001.phpt
+pass Zend/tests/gh14009_001.phpt
 fail Zend/tests/gh14009_002.phpt
 pass Zend/tests/gh14009_003.phpt
-fail Zend/tests/gh14009_004.phpt
+pass Zend/tests/gh14009_004.phpt
 pass Zend/tests/gh14009_005.phpt
 pass Zend/tests/gh14456.phpt
 fail Zend/tests/gh14480.phpt
@@ -2617,7 +2617,7 @@ pass Zend/tests/grammar/semi_reserved_007.phpt
 fail Zend/tests/grammar/semi_reserved_008.phpt
 pass Zend/tests/grammar/semi_reserved_009.phpt
 fail Zend/tests/grammar/semi_reserved_010.phpt
-fail Zend/tests/grandparent_prototype.phpt
+pass Zend/tests/grandparent_prototype.phpt
 pass Zend/tests/halt01.phpt
 pass Zend/tests/halt02.phpt
 fail Zend/tests/halt03.phpt
@@ -12388,8 +12388,8 @@ fail ext/standard/tests/dir/closedir_basic.phpt
 fail ext/standard/tests/dir/closedir_variation2.phpt
 fail ext/standard/tests/dir/closedir_variation3.phpt
 fail ext/standard/tests/dir/closedir_without_arg.phpt
-fail ext/standard/tests/dir/dir_basic.phpt
-fail ext/standard/tests/dir/dir_variation4.phpt
+pass ext/standard/tests/dir/dir_basic.phpt
+pass ext/standard/tests/dir/dir_variation4.phpt
 fail ext/standard/tests/dir/dir_variation5.phpt
 fail ext/standard/tests/dir/dir_variation6.phpt
 fail ext/standard/tests/dir/dir_variation8.phpt
