@@ -1,0 +1,13 @@
+[
+  { "name": "MediaWiki", "kind": "application", "about": "The wiki engine behind Wikipedia.", "source": "https://github.com/wikimedia/mediawiki", "status": "in progress" },
+  { "name": "Coolify", "kind": "application", "about": "Self-hosted platform for deploying apps, databases and services (a Laravel app).", "source": "https://github.com/coollabsio/coolify", "status": "planned" },
+  { "name": "Laravel", "kind": "framework", "about": "The PHP web application framework.", "source": "https://github.com/laravel/framework", "status": "planned" },
+  { "name": "Livewire", "kind": "framework", "about": "Dynamic interfaces for Laravel written in PHP.", "source": "https://github.com/livewire/livewire", "status": "planned" },
+  { "name": "Composer", "kind": "application", "about": "PHP's dependency manager.", "source": "https://github.com/composer/composer", "status": "planned" },
+  { "name": "OpenCart", "kind": "application", "about": "Open-source online store platform.", "source": "https://github.com/opencart/opencart", "status": "planned" },
+  { "name": "Kimai", "kind": "application", "about": "Time tracking for teams and freelancers (a Symfony app).", "source": "https://github.com/kimai/kimai", "status": "planned" },
+  { "name": "Grocy", "kind": "application", "about": "Groceries and household management.", "source": "https://github.com/grocy/grocy", "status": "planned" },
+  { "name": "osTicket", "kind": "application", "about": "Customer support ticket system.", "source": "https://github.com/osTicket/osTicket", "status": "planned" },
+  { "name": "Adminer", "kind": "application", "about": "Database management in a single PHP file.", "source": "https://github.com/vrana/adminer", "status": "planned" },
+  { "name": "phpMyAdmin", "kind": "application", "about": "MySQL and MariaDB administration over the web.", "source": "https://github.com/phpmyadmin/phpmyadmin", "status": "planned" }
+]

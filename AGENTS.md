@@ -1,7 +1,7 @@
 # Repository guidelines
 
-The five data files (`php-src.json`, `target.txt`, `results.txt`,
-`run.json`, `apps.jsonl`) are the whole product of this repository. Keep website, runner,
+The six data files (`php-src.json`, `target.txt`, `results.txt`,
+`run.json`, `apps.jsonl`, `roadmap.json`) are the whole product of this repository. Keep website, runner,
 build and deployment code out of it.
 
 ## Changes
@@ -15,6 +15,10 @@ build and deployment code out of it.
   `php-src.json` changes with it.
 - `apps.jsonl` comes from p8's app gate at the same commit as `run.json`
   (its first line names it). Never edit a check by hand.
+- `roadmap.json` is the plan, not a result: the apps and frameworks whose
+  own test suites p8 will run next, in order (`status`: `in progress` or
+  `planned`). It is edited by hand. An app leaves it once its suite's
+  results are in `apps.jsonl`.
 
 ## Releases
 
