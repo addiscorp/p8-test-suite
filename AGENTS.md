@@ -16,8 +16,8 @@ build and deployment code out of it.
 - `apps.jsonl` comes from p8's app gate at the same commit as `run.json`
   (its first line names it). Never edit a check by hand.
 - `roadmap.json` is the plan, not a result: the apps and frameworks whose
-  own PHPUnit (or Pest) test suites p8 will run next, in order (`status`:
-  `in progress` or `planned`). Only apps with such a suite belong here;
+  own PHPUnit (or Pest) test suites p8 will run next, in order. Only apps
+  with such a suite belong here;
   apps without one are checked by hand, not listed. It is edited by hand. An app leaves it once its suite's
   results are in `apps.jsonl`.
 
