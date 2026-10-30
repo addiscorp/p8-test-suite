@@ -2,7 +2,7 @@
   {"name": "MediaWiki", "kind": "application", "about": "The wiki engine behind Wikipedia.", "source": "https://github.com/wikimedia/mediawiki", "status": "in progress"},
   {"name": "Coolify", "kind": "application", "about": "Self-hosted platform for deploying apps, databases and services (a Laravel app).", "source": "https://github.com/coollabsio/coolify", "status": "in progress"},
   {"name": "Laravel", "kind": "framework", "about": "The PHP web application framework.", "source": "https://github.com/laravel/framework", "status": "in progress"},
-  {"name": "Livewire", "kind": "framework", "about": "Dynamic interfaces for Laravel written in PHP.", "source": "https://github.com/livewire/livewire", "status": "in progress"},
+  {"name": "Livewire", "kind": "framework", "about": "Dynamic interfaces for Laravel written in PHP.", "source": "https://github.com/livewire/livewire", "status": "planned"},
   {"name": "Composer", "kind": "application", "about": "PHP's dependency manager.", "source": "https://github.com/composer/composer", "status": "in progress"},
   {"name": "OpenCart", "kind": "application", "about": "Open-source online store platform.", "source": "https://github.com/opencart/opencart", "status": "no test suite"},
   {"name": "Kimai", "kind": "application", "about": "Time tracking for teams and freelancers (a Symfony app).", "source": "https://github.com/kimai/kimai", "status": "in progress"},
