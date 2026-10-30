@@ -12512,7 +12512,7 @@ fail ext/standard/tests/file/bug68335.phpt
 fail ext/standard/tests/file/bug68532.phpt
 fail ext/standard/tests/file/bug69100.phpt
 fail ext/standard/tests/file/bug69442.phpt
-fail ext/standard/tests/file/bug69628.phpt
+pass ext/standard/tests/file/bug69628.phpt
 fail ext/standard/tests/file/bug71287.phpt
 pass ext/standard/tests/file/bug71882.phpt
 pass ext/standard/tests/file/bug72666_variation1.phpt
