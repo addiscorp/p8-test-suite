@@ -15921,7 +15921,7 @@ pass tests/lang/short_tags.004.phpt
 pass tests/lang/static_basic_001.phpt
 fail tests/lang/static_basic_002.phpt
 fail tests/lang/static_variation_001.phpt
-fail tests/lang/static_variation_002.phpt
+pass tests/lang/static_variation_002.phpt
 pass tests/lang/string/unicode_escape.phpt
 fail tests/lang/string/unicode_escape_empty.phpt
 fail tests/lang/string/unicode_escape_incomplete.phpt
