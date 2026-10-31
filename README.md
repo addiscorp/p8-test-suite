@@ -16,7 +16,7 @@ p8-test-suite.addis.gg draws it as one square per test.
 | `apps.jsonl` | apps and frameworks run under p8: the run (its p8 commit), each app (name, version, kind: application, framework, plugin or theme; what it is in a line; source), then one line per check: the apps it shows working, what it did, as whom, and whether it matched PHP |
 | `perf/` | the performance snippets: each `NAME.php` does one kind of work real apps do (calls, objects, typed code, arrays, strings, sorting, JSON, regex) and times only that work (`perf/_bench.php`) |
 | `perf.json` | the latest timing of `perf/` under PHP and p8: the p8 commit, PHP version, the machine, and per snippet the median time under each and whether p8's output matched PHP's |
-| `history.jsonl` | every release of this suite, oldest first: its tag, p8 commit, p8 version (once p8 has releases), when it ran, php-src passes, each app suite's passes, the perf geometric mean, and its archive's SHA-256, so any past release can be rebuilt exactly |
+| `history.jsonl` | every release of this suite, oldest first: its tag, p8 commit, p8 version (once p8 has releases), when it ran, php-src passes, each app suite's passes, and the perf geometric mean (a re-release, `results-<commit>.N`, is the same line) |
 | `roadmap.json` | the plan: the apps and frameworks whose own test suites p8 runs next, in order (name, kind, what it is in a line, source); only apps with their own PHPUnit (or Pest) suite; edited by hand |
 
 In `results.txt`:
