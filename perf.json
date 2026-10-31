@@ -1,0 +1,67 @@
+{
+  "geomean": 6.5274345926079835,
+  "machine": "imac (macos x86_64)",
+  "p8": "3be74d61cd5ed5ac0b4e47dfe7e44b7199be8580",
+  "php": "8.4.27",
+  "ran": "2026-10-31T09:36:32Z",
+  "reference": "docker:php:8.4-cli",
+  "runs": 5,
+  "snippets": [
+    {
+      "about": "Arrays with string keys: insert, look up, update, iterate.",
+      "name": "arrays",
+      "p8_ns": 340782997,
+      "php_ns": 116228843,
+      "same": true
+    },
+    {
+      "about": "Function calls: recursion, as fibo in Zend/bench.php.",
+      "name": "calls",
+      "p8_ns": 423226069,
+      "php_ns": 43475177,
+      "same": true
+    },
+    {
+      "about": "JSON: encode and decode a nested document, as APIs do.",
+      "name": "json",
+      "p8_ns": 357205258,
+      "php_ns": 162451776,
+      "same": true
+    },
+    {
+      "about": "Objects: method calls, property reads and writes, as framework code is.",
+      "name": "objects",
+      "p8_ns": 2850177955,
+      "php_ns": 188731937,
+      "same": true
+    },
+    {
+      "about": "Regular expressions: matching, capturing and replacing, as routers and",
+      "name": "regex",
+      "p8_ns": 1350931289,
+      "php_ns": 149110450,
+      "same": true
+    },
+    {
+      "about": "Sorting with a user callback (usort with a closure), as collections do.",
+      "name": "sorting",
+      "p8_ns": 928216033,
+      "php_ns": 241113178,
+      "same": true
+    },
+    {
+      "about": "Strings: interpolation, concatenation and the common string functions.",
+      "name": "strings",
+      "p8_ns": 704029476,
+      "php_ns": 116711027,
+      "same": true
+    },
+    {
+      "about": "Typed parameters and returns: class, interface, scalar and nullable types.",
+      "name": "types",
+      "p8_ns": 1765095798,
+      "php_ns": 106800999,
+      "same": true
+    }
+  ]
+}
