@@ -1,66 +1,66 @@
 {
-  "geomean": 3.918557767221298,
+  "geomean": 3.259296564841303,
   "machine": "imac (macos x86_64)",
-  "p8": "009341de023f47ea4ec819aa1e1b983302185a57",
-  "php": "8.4.27",
-  "ran": "2026-11-04T16:39:21Z",
-  "reference": "docker:php:8.4-cli",
+  "p8": "0689f0c9afe9e28311925af15d0c892c75dc9bfa",
+  "php": "8.6.0RC5",
+  "ran": "2026-11-05T21:54:18Z",
+  "reference": "docker:p8-target/php:php-8.6.0RC5",
   "runs": 5,
   "snippets": [
     {
       "about": "Arrays with string keys: insert, look up, update, iterate.",
       "name": "arrays",
-      "p8_ns": 368722574,
-      "php_ns": 117057689,
+      "p8_ns": 323372132,
+      "php_ns": 128104328,
       "same": true
     },
     {
       "about": "Function calls: recursion, as fibo in Zend/bench.php.",
       "name": "calls",
-      "p8_ns": 152258174,
-      "php_ns": 44677952,
+      "p8_ns": 141597770,
+      "php_ns": 45563970,
       "same": true
     },
     {
       "about": "JSON: encode and decode a nested document, as APIs do.",
       "name": "json",
-      "p8_ns": 349662726,
-      "php_ns": 168371682,
+      "p8_ns": 295006987,
+      "php_ns": 166192763,
       "same": true
     },
     {
       "about": "Objects: method calls, property reads and writes, as framework code is.",
       "name": "objects",
-      "p8_ns": 891327708,
-      "php_ns": 192883282,
+      "p8_ns": 770622838,
+      "php_ns": 189960848,
       "same": true
     },
     {
       "about": "Regular expressions: matching, capturing and replacing, as routers and templates do.",
       "name": "regex",
-      "p8_ns": 1194257878,
-      "php_ns": 152531709,
+      "p8_ns": 564945168,
+      "php_ns": 153414742,
       "same": true
     },
     {
       "about": "Sorting with a user callback (usort with a closure), as collections do.",
       "name": "sorting",
-      "p8_ns": 915589605,
-      "php_ns": 266113131,
+      "p8_ns": 851922564,
+      "php_ns": 243000569,
       "same": true
     },
     {
       "about": "Strings: interpolation, concatenation and the common string functions.",
       "name": "strings",
-      "p8_ns": 573609411,
-      "php_ns": 122227773,
+      "p8_ns": 541779514,
+      "php_ns": 123678862,
       "same": true
     },
     {
       "about": "Typed parameters and returns: class, interface, scalar and nullable types.",
       "name": "types",
-      "p8_ns": 471226673,
-      "php_ns": 110394893,
+      "p8_ns": 447461565,
+      "php_ns": 112252353,
       "same": true
     }
   ]
