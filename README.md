@@ -68,3 +68,7 @@ This repository is content only. Changes land through pull requests to
 `main`. A release is an immutable tag, `results-<p8 commit, 7 characters>`.
 Consumers pin a tag together with the SHA-256 of its GitHub archive and
 update both in one reviewed change.
+
+## License
+
+[MIT](LICENSE)
