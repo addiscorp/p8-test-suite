@@ -2044,7 +2044,7 @@ fail Zend/tests/function_arguments/function_arguments_002.phpt
 pass Zend/tests/function_arguments/function_arguments_003.phpt
 pass Zend/tests/function_arguments/function_default_argument_cache.phpt
 fail Zend/tests/function_arguments/gh20435.phpt
-fail Zend/tests/function_arguments/gh20435_2.phpt
+pass Zend/tests/function_arguments/gh20435_2.phpt
 fail Zend/tests/function_arguments/sensitive_parameter.phpt
 fail Zend/tests/function_arguments/sensitive_parameter_arrow_function.phpt
 fail Zend/tests/function_arguments/sensitive_parameter_closure.phpt
@@ -3388,7 +3388,7 @@ fail Zend/tests/named_params/attributes_duplicate_named_param.phpt
 pass Zend/tests/named_params/attributes_named_flags.phpt
 fail Zend/tests/named_params/attributes_named_flags_incorrect.phpt
 pass Zend/tests/named_params/attributes_positional_after_named.phpt
-fail Zend/tests/named_params/backtrace.phpt
+pass Zend/tests/named_params/backtrace.phpt
 pass Zend/tests/named_params/basic.phpt
 pass Zend/tests/named_params/bug80096.phpt
 fail Zend/tests/named_params/call_user_func.phpt
