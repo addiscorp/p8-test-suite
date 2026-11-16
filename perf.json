@@ -1,66 +1,66 @@
 {
-  "geomean": 1.7537237898313112,
+  "geomean": 1.6689391039593693,
   "machine": "addis (linux x86_64)",
-  "p8": "b5eb108b6d303fcf4c9ecb2421844eff7fc1d23f",
+  "p8": "3d680cfe7179037a655d597949d0b292cfb8d822",
   "php": "8.6.0RC5",
-  "ran": "2026-11-15T17:06:43Z",
+  "ran": "2026-11-16T06:52:29Z",
   "reference": "/home/sami/p8-perf/php86/inst/bin/php",
   "runs": 5,
   "snippets": [
     {
       "about": "Arrays with string keys: insert, look up, update, iterate.",
       "name": "arrays",
-      "p8_ns": 149884526,
-      "php_ns": 152990108,
+      "p8_ns": 146064869,
+      "php_ns": 152989695,
       "same": true
     },
     {
       "about": "Function calls: recursion, as fibo in Zend/bench.php.",
       "name": "calls",
-      "p8_ns": 165386668,
-      "php_ns": 57082326,
+      "p8_ns": 161737956,
+      "php_ns": 56194029,
       "same": true
     },
     {
       "about": "JSON: encode and decode a nested document, as APIs do.",
       "name": "json",
-      "p8_ns": 191926735,
-      "php_ns": 215618491,
+      "p8_ns": 185318837,
+      "php_ns": 208237716,
       "same": true
     },
     {
       "about": "Objects: method calls, property reads and writes, as framework code is.",
       "name": "objects",
-      "p8_ns": 468850092,
-      "php_ns": 228851209,
+      "p8_ns": 400304521,
+      "php_ns": 229087062,
       "same": true
     },
     {
       "about": "Regular expressions: matching, capturing and replacing, as routers and templates do.",
       "name": "regex",
-      "p8_ns": 426030587,
-      "php_ns": 187676625,
+      "p8_ns": 415894909,
+      "php_ns": 188112556,
       "same": true
     },
     {
       "about": "Sorting with a user callback (usort with a closure), as collections do.",
       "name": "sorting",
-      "p8_ns": 545194436,
-      "php_ns": 323567842,
+      "p8_ns": 485489405,
+      "php_ns": 316470559,
       "same": true
     },
     {
       "about": "Strings: interpolation, concatenation and the common string functions.",
       "name": "strings",
-      "p8_ns": 261036142,
-      "php_ns": 154665224,
+      "p8_ns": 249809799,
+      "php_ns": 153415175,
       "same": true
     },
     {
       "about": "Typed parameters and returns: class, interface, scalar and nullable types.",
       "name": "types",
-      "p8_ns": 380753839,
-      "php_ns": 142200761,
+      "p8_ns": 363532693,
+      "php_ns": 142537272,
       "same": true
     }
   ]
